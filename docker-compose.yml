@@ -1,0 +1,10 @@
+services:
+  pedestrian-detector:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - yolo-weights:/app/weights
+
+volumes:
+  yolo-weights:

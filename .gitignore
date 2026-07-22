@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.streamlit/
+*.pt
+!weights/*.pt
+*.mp4
+*.avi
+*.mov
+*.tar
